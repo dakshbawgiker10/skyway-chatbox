@@ -21,3 +21,7 @@ Open [http://localhost:3000](http://localhost:3000).
 - Documents are chunked (~500 characters) and stored in memory on the serverless instance.
 - Retrieval uses BM25 keyword search (no extra embedding API), which fits Vercel function limits.
 - On Vercel, memory does not persist across cold starts. Use Vercel KV or a vector store for production persistence.
+
+
+## Website:
+- The website is live at "https://skyway-chatbox.vercel.app/"
